@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  tag: armhf
+
+port:
+  containerPort: 4040
+
+config:
+  env:
+    NGROK_REGION: ap
+    NGROK_PORT: helm-line-googlehome-bot-service
