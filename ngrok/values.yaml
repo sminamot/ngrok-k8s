@@ -9,4 +9,4 @@ port:
 config:
   env:
     NGROK_REGION: ap
-    NGROK_PORT: helm-line-googlehome-bot-service
+    NGROK_PORT: line-googlehome-bot-service
